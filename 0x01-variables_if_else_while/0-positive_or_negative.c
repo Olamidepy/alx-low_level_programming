@@ -5,30 +5,26 @@
 
 /* more headers goes there */
 /* betty style doc for function main goes there */
-int main(void)
+int main(voi)
 {
-int n;
-	
-srand(time(0));
-n = rand() - RAND_MAX / 2;
+	int n;
 
-if (n > 0)
-{
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
 
-        printf("%i is positive\n",n)
+	if (n > 0)
+	{
+		printf("%i is positive\n",n);
+	}
+	if else (n == 0)
+	{
+		printf("%i is zero\n",n);
+	}
+	if else (n < 0)
+	{
+		printf("%i is negative\n",n);
+	}
+	return (0);
 }
 
-else if (n == 0) 
-{
-
-        printf("%i is zero\n",n);
-}
-
-else if (n < 0) 
-{
-
-        printf("%i is negative\n",n);
-}
-
-return (0);
-}	
