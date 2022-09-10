@@ -4,7 +4,6 @@
 #include <stdio.h>
 
 /* more headers goes there */
-
 /* betty style doc for function main goes there */
 
 int main(void)
@@ -17,20 +16,20 @@ int main(void)
 	if (n > 0)
 	{
 
-        	printf( "%i is positive\n" , n ) ;
+        	printf( "%i is positive\n" , n);
 	}
 
-	else if ( n == 0) 
+	else if (n == 0) 
 	{
 
-        	printf( "%i is zero\n" , n ) ;
+        	printf("%i is zero\n" , n);
 	}
 
 	else if (n < 0) 
 	{
 
-        	printf( "%i is negative\n" , n) ;
+        	printf("%i is negative\n" , n);
 	}
 
-	return (0) ;
+	return (0);
 }	
