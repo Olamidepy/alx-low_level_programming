@@ -4,7 +4,6 @@
 
 /**
 * main,print positive,negative,zero
-*
 *betty style doc for function main goes there
 */
 
