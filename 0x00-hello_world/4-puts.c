@@ -1,9 +1,10 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
-
 /**
-* main-  print "programming is like a multilingua puzzle
+* main - print programming us like a building
 *
-* Description: use the function puts
+* Description: using the main function
 * Return: 0
 */
 int main(void)
