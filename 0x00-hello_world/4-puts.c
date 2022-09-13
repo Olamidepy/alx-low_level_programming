@@ -1,10 +1,11 @@
 #include <stdio.h>
+
 /**
- *program should print "programming is like a multilingua puzzle
- *
- * use the function puts
- * program should end with the value zero
- */
+* main-  print "programming is like a multilingua puzzle
+*
+* Description: use the function puts
+* Return: 0
+*/
 int main(void)
 {
 puts("\"programming is like a building a multilingual puzzle");
