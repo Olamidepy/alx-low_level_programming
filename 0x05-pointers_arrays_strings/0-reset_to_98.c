@@ -6,7 +6,19 @@
  * update the value to 98
  * always return 0
  */
-void reset_to_98(int *n);
+int main(void)
 {
-  n* = 98
+void reset_to_98(int *n);
+*n = 402;
+{
+putchar("*n");
+putchar("\n");
 }
+reset_to_98(&n);
+{
+putchar("*n");
+putchar("\n");
+}
+ return 0;
+}
+     
